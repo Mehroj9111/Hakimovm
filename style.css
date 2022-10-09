@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.obshi {
+  width: 100%;
+  height: 100vh;
+}
+.obshi .glava {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/glaaava.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.obshi .glava .nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.obshi .glava .nav h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 29px;
+  margin-right: 120px;
+  color: #FFFFFF;
+}
+.obshi .glava .nav a {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.obshi .glava .nav a:hover {
+  color: #C66C49;
+}
+.obshi .glava .di1 {
+  width: 50%;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.obshi .glava .di1 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 64px;
+  line-height: 78px;
+  padding-top: 25px;
+  color: #FFFFFF;
+}
+.obshi .glava .di1 h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 45px;
+  margin-top: 45px;
+  color: #FFFFFF;
+}
+.obshi .glava .di1 a {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.obshi .glava .di1 h3 {
+  margin-left: 45px;
+}
+.obshi .glava .di1 a:hover, .obshi .glava .di1 h3:hover {
+  color: #C66C49;
+}
+.obshi .div1 {
+  width: 100%;
+  height: 380px;
+}
+.obshi .div1 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  padding-top: 70px;
+  margin-left: 90px;
+}
+.obshi .div1 p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 50px;
+  margin-left: 90px;
+  line-height: 30px;
+  text-align: justify;
+  width: 90%;
+  color: #333333;
+}
+.obshi .Skills {
+  width: 100%;
+  height: 600px;
+  background-color: #FFFAF2;
+  display: flex;
+}
+.obshi .Skills .lef {
+  width: 35%;
+  height: 600px;
+}
+.obshi .Skills .lef h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 90px;
+  color: #333333;
+  margin-top: 20px;
+}
+.obshi .Skills .lef img {
+  margin-left: 90px;
+  margin-top: 100px;
+}
+.obshi .Skills .lef a {
+  text-decoration: none;
+}
+.obshi .Skills .lef a h1 {
+  margin-left: 200px;
+  position: relative;
+  bottom: 8%;
+}
+.obshi .Skills .lef .fa-instagram {
+  font-size: 34px;
+  margin-left: 90px;
+  margin-top: 10px;
+  color: red;
+}
+.obshi .Skills .lef .fa-instagram:hover {
+  color: #C66C49;
+}
+.obshi .Skills .lef .fa-telegram:hover {
+  color: #C66C49;
+}
+.obshi .Skills .lef .fa-telegram {
+  font-size: 34px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.obshi .Skills .ri {
+  width: 45%;
+  height: 600px;
+}
+.obshi .Skills .ri .d1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.obshi .Skills .ri .d1 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 50px;
+  line-height: 25px;
+  color: #333333;
+}
+.obshi .Skills .ri .d1 p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 50px;
+  margin-left: 150px;
+  color: #333333;
+}
+.obshi .Skills .ri .d2 {
+  display: flex;
+}
+.obshi .Skills .ri .d2 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  line-height: 25px;
+  color: #333333;
+}
+.obshi .Skills .ri .d2 .dii {
+  width: 450px;
+  height: 25px;
+  margin-top: 100px;
+  margin-left: 190px;
+  background-color: #F5D6AB;
+}
+.obshi .Skills .ri .d2 .dii h1 {
+  width: 70%;
+  height: 100%;
+  background-color: #C66C49;
+  position: relative;
+  bottom: 100px;
+}
+.obshi .Skills .ri .d3 {
+  display: flex;
+}
+.obshi .Skills .ri .d3 p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 50px;
+  line-height: 25px;
+  color: #333333;
+}
+.obshi .Skills .ri .d3 .dii {
+  width: 500px;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: 190px;
+  background-color: #F5D6AB;
+}
+.obshi .Skills .ri .d3 .dii h1 {
+  width: 90%;
+  height: 100%;
+  background-color: #C66C49;
+  position: relative;
+}
+.obshi .Skills .ri .d3 .icono {
+  display: flex;
+  width: 600px;
+  height: 70px;
+}
+.obshi .Skills .ri .fa-brands {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.obshi .Skills .ri .fa-html5 {
+  color: blue;
+}
+.obshi .Skills .ri .fa-css3 {
+  margin-left: 150px;
+  position: relative;
+  color: red;
+  bottom: 95px;
+}
+.obshi .Skills .ri .fa-github {
+  margin-left: 150px;
+  position: relative;
+  left: 150px;
+  bottom: 195px;
+}
+.obshi .div2 {
+  width: 100%;
+  height: 830px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.obshi .div2 .left {
+  width: 29%;
+  padding-right: 5px;
+  height: 650px;
+}
+.obshi .div2 .left h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 70px;
+  margin-left: 90px;
+  color: #333333;
+}
+.obshi .div2 .left p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 85px;
+  color: #333333;
+}
+.obshi .div2 .left img {
+  width: 80%;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.obshi .div2 .left a {
+  text-decoration: none;
+}
+.obshi .div2 .left a h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 90px;
+  color: #333333;
+}
+.obshi .div2 .left h2:hover {
+  color: greenyellow;
+}
+.obshi .div2 .left .fa-solid {
+  font-size: 50px;
+  color: #C66C49;
+  margin-left: 90px;
+  margin-top: 100px;
+}
+.obshi .div2 .left .fa-solid:hover {
+  color: #333333;
+}
+.obshi .div2 .right {
+  width: 68%;
+  height: 600px;
+  margin-left: 28px;
+}
+.obshi .div2 .right img {
+  padding: 10px;
+  opacity: 0.6;
+  border: 2px solid #C66C49;
+}
+.obshi .div2 .right img:hover {
+  opacity: 1;
+}
+.obshi .oxir1 {
+  width: 100%;
+  height: 450px;
+  background-color: #FFFAF2;
+  display: flex;
+  flex-wrap: wrap;
+}
+.obshi .oxir1 .div31 {
+  width: 27%;
+  height: 70%;
+  margin-left: 90px;
+  margin-top: 100px;
+}
+.obshi .oxir1 .div31 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.obshi .oxir1 .div31 a {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+  margin-top: 50px;
+}
+.obshi .oxir1 .div31 a:hover {
+  color: #C66C49;
+}
+.obshi .oxir1 .div31 p {
+  padding-top: 25px;
+}
+.obshi .oxir1 .div32 {
+  width: 27%;
+  height: 70%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.obshi .oxir1 .div32 a {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+  margin-top: 50px;
+}
+.obshi .oxir1 .div32 h1 {
+  padding-top: 35px;
+}
+.obshi .oxir1 .div32 a:hover {
+  color: #C66C49;
+}
+.obshi .oxir1 .div33 {
+  width: 27%;
+  height: 70%;
+  margin-top: 100px;
+}
+.obshi .oxir1 .div33 p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+  padding-top: 30px;
+}
+.obshi .oxir1 .div33 h1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+  margin-top: 25px;
+}
+.obshi .oxir1 .tag {
+  width: 100%;
+  height: 50px;
+  background-color: #C66C49;
+}
+.obshi .oxir1 .tag h1 {
+  margin-top: 17px;
+  text-align: center;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+}/*# sourceMappingURL=style.css.map */

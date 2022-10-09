@@ -1,0 +1,156 @@
+*{ 
+    margin: 0; 
+    margin-left: 80px; 
+    margin-top: 70px;
+} 
+table, td{ 
+   width: 850px;
+   height: 30px;
+    text-align: center; 
+ border: 1px solid black; 
+    border-collapse: collapse; 
+} 
+tr:nth-child(1) td:nth-child(1){ 
+    background-color:yellow; 
+} 
+tr:nth-child(1) td:nth-child(2){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(3){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(4){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(5){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(6){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(7){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(8){ 
+    background-color:orange; 
+} 
+tr:nth-child(1) td:nth-child(9){ 
+    background-color:orange; 
+    width: 500px; 
+} 
+tr:nth-child(1) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(2) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(3) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(4) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(5) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(6) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(7) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(8) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(9) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(10) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(11) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(12) td:last-child{ 
+    background-color: orange; 
+} 
+tr:nth-child(2) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(2) td:nth-child(2){ 
+    background-color: yellow; 
+} 
+tr:nth-child(3) td:nth-child(3){ 
+    background-color: yellow; 
+} 
+tr:nth-child(4) td:nth-child(4){ 
+    background-color: yellow; 
+} 
+tr:nth-child(5) td:nth-child(5){ 
+    background-color: yellow; 
+} 
+tr:nth-child(6) td:nth-child(6){ 
+    background-color: yellow; 
+} 
+tr:nth-child(7) td:nth-child(7){ 
+    background-color: yellow; 
+} 
+tr:nth-child(8) td:nth-child(8){ 
+    background-color: yellow; 
+} 
+tr:nth-child(3) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(4) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(5) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(6) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(7) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(8) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(9) td:nth-child(1){ 
+    background-color: rgb(189, 187, 187); 
+} 
+tr:nth-child(10) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(11) td:nth-child(3){ 
+    border: 0; 
+} 
+tr:nth-child(11) td:nth-child(4){ 
+    border: 0; 
+} 
+tr:nth-child(11) td:nth-child(5){ 
+    border: 0; 
+} 
+tr:nth-child(11) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(1){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(2){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(4){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(5){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(6){ 
+    background-color: green; 
+} 
+tr:nth-child(12) td:nth-child(3){ 
+    border: 0; 
+    font-size: 25px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+} 

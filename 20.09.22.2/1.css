@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+}
+.obshi{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+}
+.lef{
+    width: 20%;
+        height: 100vh;
+        position: fixed;
+overflow: scroll;
+top: 0;
+overflow-x: hidden;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+        background-color:#f1f1f1;
+}
+.Re{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.for{
+    margin-left: 20px;
+}
+.per{
+    margin-left: 20px;
+}
+.chak i{
+    margin-left: 20px;
+}
+input{
+    margin-left: 20px;
+    width: 190px;
+    height: 30px;
+}
+.se{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+.se h1 {
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+    text-align: center;
+}
+.se a{
+    text-decoration: none;
+    background-color: green;
+    position: relative;
+left:1px;
+padding: 15px;
+color: aliceblue;
+bottom: 50px;
+}
+.se a:hover{
+    background-color: gray;
+    color: black;
+}
+.tag i{
+    width: 85%;
+    height: 30px;
+    padding: 20px;
+}
+.tag i:hover{
+    background-color:gray;
+
+}
+.right{
+    width: 80%;
+    height: 100vh;
+    margin-left: 250px;
+    overflow: auto;
+
+}
+.T{
+    text-align: left;
+    color: #4CAF50;
+    font-size: 30px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    margin-left: 40px;
+}
+.sar{
+    width: 90%;
+    background-image: url(./img/1km.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-left: 60px;
+}
+.sar span{
+    padding: 20px;
+    background-color: black;
+    color: #f1f1f1;
+    position: relative;
+    top: 550px;
+}
+.surato{
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+}
+.surato img{
+    width: 202px;
+    height: 150px;
+    padding: 10px;
+    opacity: 0.5;
+ }
+.surato img:hover{
+    opacity: 1;
+}
+.th{
+    margin-left: 60px;
+    padding-top: 50px;
+}
+.harfo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.le{
+    width: 40%;
+    height: 250px;
+}
+.le i{
+    font-size: 20px;
+padding-top: 20px;
+margin-left: 60px;
+}
+.ri{
+    width: 40%;
+    height: 250px;
+}
+.ri h1{
+    font-size: 20px;
+padding-top: 20px;
+margin-left: 60px;
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+}
+.p{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.pp{
+    margin-left: 50px;
+    font-size: 20px;
+    height: 50px;
+}
+.aa{
+    text-decoration: none;  
+}
+.hl{
+    width: 350px;
+    height: 50px;
+    margin-left: 50px;
+        text-align: center;
+    background-color: #4CAF50;
+    color: #f1f1f1;
+}
+.hl:hover{
+    background-color: gray;
+color: black;
+}
+.ll i{
+    position: relative;
+    left: 15%;
+    bottom: 45px;
+}
+.right input{
+    width: 90%;
+    height: 40px;
+    position: relative;
+right: 2%;
+}
+.p1{
+    margin-left: 60px;
+}

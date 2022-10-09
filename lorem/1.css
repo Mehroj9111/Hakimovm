@@ -1,0 +1,192 @@
+.body {
+    margin: 0;
+  }
+  .container {
+    width: 60%;
+    margin: auto;
+    color: grey;
+    font-family: "Lato", sans-serif;
+    justify-content: space-evenly;
+  }
+  .h1 {
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+  }
+  .h2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+  }
+  .content2 {
+    width: 60%;
+    color: grey;
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .left2 {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .right2 {
+    width: 50%;
+    text-align: start;
+  }
+  img {
+    width: 100%;
+  }
+  .h3 {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+  }
+  .content3 {
+    width: 60%;
+    color: grey;
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: grey;
+  }
+  .content4{
+      width: 60%;
+      color: grey;
+      font-size: 15px;
+      font-family:"Lato", sans-serif ;
+      margin: auto;
+  }
+  .Photography{
+      letter-spacing: 10px;
+  }
+  .Percent{
+     background-color: rgb(175, 175, 175);
+     height: 30px;
+  
+  }
+  .Percent90{
+       text-align: center;
+      color: rgb(240, 235, 235);
+      background-color: rgb(72, 72, 72);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 30px;
+  }
+  .Percent85{
+    text-align: center;
+    color:  rgb(240, 235, 235);
+    background-color: rgb(72, 72, 72);
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    width: 85%; 
+    height: 30px;
+  }
+  .WebDesign{
+    letter-spacing: 10px;
+  }
+  .Photoshop{
+    letter-spacing: 10px;
+  }
+  .Percent75{
+    text-align: center;
+    color: rgb(240, 235, 235);
+    background-color: rgb(72, 72, 72);
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    width: 75%; 
+    height: 30px;
+  }
+  .portfolio{
+    height: 60vh;
+    background-image:url(/devochka.jpg);
+    margin-bottom: 60px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.9;
+}
+.portfolio h1{
+  letter-spacing: 5px;
+}
+.Partners{
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(72, 72, 72);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.foto{
+    background-attachment: scroll;
+}
+.mywork{
+  height: 60%;
+  color: gray;
+}
+.raght22 img{
+ width: 170px;
+ height: 125px;
+ padding-bottom: 20px;
+
+}
+.raght22{
+  width: 60%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: grey;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+
+}
+.left22{
+  width: 60%;
+  margin: auto;
+  color: grey;
+  text-align: center;
+}
+.somon{
+  display: inline;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+  background-color: lightslategray;
+  font-family:"Lato", sans-serif ;
+  margin-left: 46%;
+
+}
+#mehroj{
+  text-decoration: none;
+  color: white;
+}
+.contact{
+  height: 40vh;
+  margin-top: 30px;
+  background-image:url(./1111.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  opacity: 0.9;
+}

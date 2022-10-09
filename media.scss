@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+@media(max-width : 480px){
+    .obshi{
+        width:100%;
+        height: 100vh;
+        .glava{
+            width:100%;
+            height: 100vh;
+            background-image: url(./img/glaaava.jpg);
+            background-position: center;
+            background-size: cover;
+         .nav{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    h1{
+        font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    }
+    a{
+        font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    text-decoration: none;
+    line-height: 2px;
+    position: relative;
+    color: #FFFFFF;
+    }
+    a:hover{
+        color: #C66C49;
+    }
+         }  
+          .di1{
+            width: 70%;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: rgba($color: #000000, $alpha: 0.4);
+            h1{
+                font-family: 'Libre Franklin';
+                font-style: normal;
+                font-weight: 400;
+                text-align: center;
+                font-size: 34px;
+                line-height: 38px;
+                padding-top: 25px;
+                color: #FFFFFF;
+               
+            }
+    h2{
+        font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 45px;
+    color: #FFFFFF;
+    }
+    a{
+        font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    }
+    h3{
+        margin-left: 15px;
+    position: relative;
+    bottom: 30px;
+    }
+    a:hover, h3:hover{
+        color: #C66C49;
+    }
+    }
+          }
+    .div1{
+        width: 390px;
+        height: 380px;
+        h1{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #333333;
+    padding-top: 20px;
+    margin-left: 60px;
+        }
+        p{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 20px;
+    margin-left: 60px;
+    line-height: 20px;
+    text-align: justify;
+    width: 300px;
+    color: #333333;
+        }
+    }
+    .Skills{
+    width: 390px;
+    height: 980px;
+    background-color: #FFFAF2;
+    .lef{
+        width: 35%;
+        height: 100vh;
+        h1{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    margin-left: 60px;
+    color: #333333;
+    margin-top: 10px;
+        }
+        img{
+            margin-left: 60px;
+            margin-top: 50px;
+            width: 300px;
+        }
+        a{
+            text-decoration: none;
+            h1{
+    margin-left: 200px;
+    font-size: 9px;
+    position: relative;
+    bottom: 8%;
+            }
+        }
+        .fa-instagram{
+            font-size: 24px;
+            margin-left: 60px;
+            margin-top: 10px;
+            color: red;
+        }
+        .fa-instagram:hover{
+            color: #C66C49;
+        }
+        .fa-telegram:hover{
+            color: #C66C49;
+        }
+        .fa-telegram{
+            font-size: 24px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+    }
+    .ri{
+        width: 480px;
+    margin-top: 450px;
+    margin-right: 100px;
+        height: 100vh;
+       .d1{
+        width: 100%;
+        height: 50px;
+        margin-right: 100px;
+        display: flex;
+        h1{
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            margin-top: 50px;
+            line-height: 25px;
+            color: #333333;        
+        }
+        p{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+    color: #333333;
+        }
+       }
+       .d2{
+        display: flex;
+        h1{
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 8px;
+            margin-top: 100px;
+            line-height: 25px;
+            color: #333333;    
+        }
+        .dii{
+            width: 390px;
+            height: 25px;
+            margin-top: 100px;
+            margin-left: 190px;
+            background-color: #F5D6AB;
+            h1{
+                width: 70%;
+                height: 100%;
+                background-color: #C66C49;
+                position: relative;
+                bottom: 100px;
+            }
+        }
+       }
+       .d3{
+        display: flex;
+        p{
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 50px;
+            line-height: 25px;
+            color: #333333;    
+        }
+        .dii{
+            width: 500px;
+            height: 25px;
+            margin-top: 50px;
+            margin-left: 190px;
+            background-color: #F5D6AB;
+            h1{
+                width: 90%;
+                height: 100%;
+                background-color: #C66C49;
+                position: relative;
+            }
+        }
+        .icono{
+            display: flex;
+            width: 600px;
+            height: 70px;
+        }
+       }
+       .fa-brands{
+        font-size: 50px;
+        margin-top: 50px;
+       }
+       .fa-html5{
+        color: blue;
+       }
+       .fa-css3{
+        margin-left: 150px;
+        position: relative;
+        color: red;
+        bottom: 95px;
+       }
+       .fa-github{
+        margin-left: 150px;
+        position: relative;
+        left: 150px;
+        bottom: 195px;
+    } } }
+    .div2{
+     width: 100%;
+     height: 830px;
+     display: flex;
+     flex-wrap: wrap;
+     .left{
+        width: 29%;
+        padding-right: 5px;
+        height: 650px;
+        h1{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 70px;
+    margin-left: 140px;
+    color: #333333;
+        }
+        p{
+            font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 250px;
+text-align: center;
+    color: #333333;
+        }
+        img{
+            width: 480px;
+            margin-left: 90px;
+            margin-top: 25px;
+        }
+        a{
+            text-decoration: none;
+            h2{
+                font-family: 'Libre Franklin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                margin-top: 20px;
+                margin-left: 90px;
+                color: #333333;
+            }
+        
+        }
+        h2:hover{
+            color: greenyellow;
+        }
+        .fa-solid{
+            font-size: 20px;
+            color: #C66C49;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .fa-solid:hover{
+            color: #333333;
+        }
+         }
+         .right{
+            width: 68%;
+            height: 950px;
+            margin-top: 15px;
+        
+            img{
+            width: 480px;
+                opacity: 0.6;
+            }
+            img:hover{
+                opacity: 1;
+    
+    }}}
+    .oxir1{
+        width: 100%;
+        height: 450px;
+        background-color: #FFFAF2;
+        .div31{
+            width: 27%;
+            height: 30%;
+            margin-left: 120px;
+            margin-top: 1550px;
+    h1{
+        font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    }
+    a{
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        color: #333333;
+        margin-top: 50px;
+    }
+    p{
+        padding-top: 25px;
+    }
+        }
+        .div32{
+            width: 27%;
+            height: 20%;
+            margin-left: 120px;
+            a{
+                font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        color: #333333;
+        margin-top: 50px;
+            }
+            h1{
+                padding-top: 35px;
+            }
+        }
+        .div33{
+            width: 27%;
+            height: 70%;
+            margin-left: 120px;
+            p{
+                font-family: 'Libre Franklin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-decoration: none;
+                color: #333333;
+                padding-top: 30px;
+            }
+            h1{
+                font-family: 'Libre Franklin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 22px;
+                text-decoration: none;
+                color: #333333;
+                margin-top: 25px;
+            }
+        }
+    .tag{
+        width: 100%;
+        height: 50px;
+        background-color: #C66C49;
+        h1{
+            margin-top: 17px;
+            text-align: center;
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: none;
+            color: #333333;
+        }
+    }
+    }
+    
+    }
+}

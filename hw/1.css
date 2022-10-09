@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .hanifa {
+    height: 100vh;
+  }
+  .mexa {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bayn {
+    width: 30%;
+  }
+  .mexa i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+  .ab a:hover{
+    opacity: 0.5;
+  }
+  .mexa h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .mexa p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .ab a {
+    background-color: gray;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+  }
+  img {
+    width: 100%;
+  }
+  .sr {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+  .oxir,.bad,.aval {
+    display: inherit;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: inherit;
+  }
+  .pas {
+    background-color: #f1f1f1 !important;
+    padding-top: 50px ;
+    padding-bottom: 64px ;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 128px;
+    height: 100px;
+  }
+  .pas i{
+      padding: 5px;
+      color: rgb(128, 128, 128);
+  }
+  .pas p{
+      text-align: center;
+      color: rgb(128, 128, 128);
+      font-size: 15px;
+      padding-top: 20px;
+  }
+  .pas a{
+      color: rgb(128, 128, 128);
+      padding-top: 20px;
+      font-size: 15px;
+  }
